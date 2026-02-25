@@ -7,16 +7,20 @@ public class decompressRLElist {
         System.out.println(Arrays.toString(solution(arr)));
 
     }
-   static public int[] solution(int[] nums) {
-        List<Integer> list=new ArrayList<>();
-        for(int i=0;i<nums.length-1;i=i+2)
-        {
-            for(int j=0;j<nums[i];j++)
-            {
-                list.add(nums[i+1]);
+   static public int[] solution(int[] nums) {int length = 0;
 
-            }
-        }
-        return  list.stream().mapToInt(i -> i).toArray();
+       for (int i = 0; i < nums.length - 1; i = i + 2) {
+           length += nums[i];
+       }
+       int[] arr = new int[length];
+
+       int z = 0;
+       for (int i = 0; i < nums.length - 1; i=i+2) {
+           for (int j = 0; j < nums[i]; j++) {
+               arr[z] = nums[i + 1];
+               z++;
+           }
+       }
+       return arr;
     }
 }
