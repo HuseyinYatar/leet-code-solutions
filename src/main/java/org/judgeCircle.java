@@ -1,7 +1,7 @@
 package org;
 
 public class judgeCircle {
-    public static void main(String[] args) {
+    public static void main() {
 
         solution("UD");
     }
