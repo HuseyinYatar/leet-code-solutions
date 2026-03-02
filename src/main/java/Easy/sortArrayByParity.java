@@ -1,4 +1,4 @@
-package org;
+package Easy;
 
 public class sortArrayByParity {
     public static void main(String[] args) {

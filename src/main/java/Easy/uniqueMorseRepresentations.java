@@ -1,4 +1,4 @@
-package org;
+package Easy;
 
 import java.util.HashSet;
 

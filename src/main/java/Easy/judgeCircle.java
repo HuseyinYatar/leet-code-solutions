@@ -1,4 +1,4 @@
-package org;
+package Easy;
 
 public class judgeCircle {
     public static void main() {

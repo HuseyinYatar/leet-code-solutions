@@ -1,7 +1,7 @@
-package org;
+package Easy;
 
 public class reverseString {
-    public static void main(String[] args) {
+    public static void main() {
         solution(new char[]{'h', 'e','l', 'l', 'o'});
     }
 
