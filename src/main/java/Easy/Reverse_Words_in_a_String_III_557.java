@@ -6,33 +6,14 @@ public class Reverse_Words_in_a_String_III_557 {
     }
 
     static public String reverseWords(String s) {
-        char[] array = s.toCharArray();
-        StringBuilder stringBuilder = new StringBuilder(s.length());
-        int tmp = 0;
-        for (int i = 0, j = 0; i < s.length()-1; i++) {
-
-            if (array[i+1] == ' ') {
-                tmp = i + 2;
-                while (i >= j) {
-                    stringBuilder.append(array[i]);
-                    i--;
-                }
-                stringBuilder.append(' ');
-                j = tmp;
-                i=tmp;
-            }
+        StringBuilder st = new StringBuilder(s.length());
+        String[] words = s.split(" ");
+        for (int i = 0; i < words.length; i++) {
+            st.append((new StringBuilder(words[i])).reverse());
+            if (words.length - 1 != i)
+                st.append(" ");
         }
-        int i=s.length()-1;
 
-        while(array[i]!=' ')
-        {
-            stringBuilder.append(array[i]);
-            i--;
-            if(i<0)
-                return stringBuilder.toString();
-
-
-        }
-        return stringBuilder.toString();
+        return st.toString();
     }
 }
