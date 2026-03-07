@@ -3,13 +3,24 @@ package Easy;
 public class Maximum69Number_1323 {
 
     public static void main(String[] args) {
-        maximum69Number(6669);
+        maximum69Number(9669);
     }
 
     static public int maximum69Number(int num) {
-        String s = Integer.toString(num);
-        String s1 = s.replaceFirst("6", "9");
+        int digit = 0;
+        int i = 0;
+        int res = num;
+        boolean first=false;
+        while (num != 0) {
+            if (num % 10 == 6)
+            {
+                digit = i;
+                first=true;
+            }
+            num = num / 10;
+            i++;
+        }
+        return digit != 0||first==true ? ((int) (res + Math.pow(10, digit) * 3)) : res;
 
-        return Integer.parseInt(s1);
     }
 }
