@@ -2,7 +2,7 @@ package Easy;
 
 import java.util.HashSet;
 
-public class uniqueMorseRepresentations {
+public class Unique_Morse_Code_Words_804 {
 
     public static void main(String[] args) {
         System.out.println(solution(new String[]{"qq","qq","qq","qq"}));

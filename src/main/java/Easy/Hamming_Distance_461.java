@@ -1,6 +1,6 @@
 package Easy;
 
-public class hammingDistance {
+public class Hamming_Distance_461 {
     public static void main(String[] args) {
         solution(4, 1);
     }

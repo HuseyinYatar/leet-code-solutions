@@ -1,6 +1,6 @@
 package Easy;
 
-public class Maximum69Number_1323 {
+public class Maximum_69_Number_1323 {
 
     public static void main(String[] args) {
         maximum69Number(9669);

@@ -1,7 +1,7 @@
 package Easy;
 
 import java.util.*;
-public class decompressRLElist {
+public class Decompress_Run_Length_Encoded_List_1313 {
     public static void main(String[] args) {
         int x=5^1;
         int[] arr={1,2,3,4};

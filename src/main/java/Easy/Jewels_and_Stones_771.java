@@ -2,7 +2,7 @@ package Easy;
 
 import java.util.HashMap;
 
-public class JewelsAndStones {
+public class Jewels_and_Stones_771 {
 
     public static void main(String[] args) {
         numJewelsInStones("aA", "aAAbbbb"

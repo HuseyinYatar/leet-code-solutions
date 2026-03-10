@@ -1,6 +1,6 @@
 package Easy;
 
-public class sortArrayByParity {
+public class Sort_Array_By_Parity_905 {
     public static void main(String[] args) {
         solution(new int[]{1, 0});
     }

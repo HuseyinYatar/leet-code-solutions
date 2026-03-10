@@ -1,6 +1,6 @@
 package Easy;
 
-public class minTimeToVisitAllPoints {
+public class Minimum_Time_Visiting_All_Points_1266 {
     static public int solution(int[][] points) {
         int res = 0;
         int sum = 0;

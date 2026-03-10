@@ -1,6 +1,6 @@
 package Easy;
 
-public class findNumbers {
+public class Find_Numbers_with_Even_Number_of_Digits_1295 {
     public static void main(String[] args) {
 
         int[] temp={555,901,482,1771};

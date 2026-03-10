@@ -1,6 +1,6 @@
 package Easy;
 
-public class removeOuterParentheses1021 {
+public class Remove_Outermost_Parentheses_1021 {
 
     public static void main(String[] args) {
 

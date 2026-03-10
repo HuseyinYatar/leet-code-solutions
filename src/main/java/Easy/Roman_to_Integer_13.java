@@ -3,7 +3,7 @@ package Easy;
 
 import java.util.Map;
 
-public class RomanNumbToInt {
+public class Roman_to_Integer_13 {
     public static void main(String[] args) {
 
         int x = romanToInt("MCDLXXVI");

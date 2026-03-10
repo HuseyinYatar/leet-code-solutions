@@ -3,7 +3,7 @@ package Easy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SelfDividingNumbers {
+public class Self_Dividing_Numbers_728 {
     public static List<Integer> solution(int left, int right) {
 
         List<Integer> res = new ArrayList<>();

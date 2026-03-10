@@ -1,6 +1,6 @@
-package Easy;
+package Medium;
 
-public class ArrayPeakIndexinaMountain_852 {
+public class Peak_Index_in_a_Mountain_Array_852 {
    static  public int peakIndexInMountainArray(int[] arr) {
         int left=0;
         int right=arr.length-1;
