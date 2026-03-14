@@ -6,10 +6,10 @@ A collection of my solutions to various LeetCode problems, categorized by diffic
 
 | Difficulty | Solved | Goal |
 | :--- | :--- | :--- |
-| 🟢 **Easy** | 22 | 100 |
-| 🟡 **Medium** | 2 | 100 |
+| 🟢 **Easy** | 33 | 100 |
+| 🟡 **Medium** | 3 | 100 |
 | 🔴 **Hard** | 0 | 50 |
-| **Total** | **24** | **250** |
+| **Total** | **36** | **250** |
 
 ---
 
